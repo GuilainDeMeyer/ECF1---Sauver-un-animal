@@ -1,0 +1,74 @@
+h2, .SiteName, .activites{
+    font-weight: bold;   
+}
+
+h2, .psoutiens, .activites {
+    text-align: center;
+}
+
+.bgArticle{
+    /* Background en dégradé (direction, color1, color2, long, total long) */
+    background: linear-gradient(to left top, #000000, #00ff00);
+    border-radius: 50px;
+    margin: 100px;
+}
+
+
+.Bfox{
+    border-radius: 20px;
+}
+
+.TSoutiens{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.psoutiens, .activitesP{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 80%;
+}
+
+
+.CardSoutien{
+    background-color: rgba(0, 0, 0, 0.904);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.CTextSoutien{
+    color: white;
+}
+
+.RefugeImg{
+    border-radius: 50px;
+    width: 75%;
+}
+
+.ImgActivites{
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Media */
+@media (max-width: 480px) {
+    .psoutiens{
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px){
+    .RefugeImg{
+        width: 75%;
+    }
+}
+
+@media (max-width: 480px) {
+    .activitesP{
+        width: 70%;
+    }
+}
